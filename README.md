@@ -1,1 +1,1 @@
-# SChulprojekt für BTS
+# Schulprojekt für BTS
