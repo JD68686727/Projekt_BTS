@@ -1,11 +1,3 @@
-
-
-**Projektname:** Projekt_BTS (BTS-Schulprojekt)
-**Typ:** Esports-Event-Management-System
-**Status:** 🚧 Vorentwicklung / Planungsphase
-**Autor:** Quintic (Joeldenninger@proton.me)
-**Zuletzt aktualisiert:** 2025-12-10
-
 ### Zweck
 Dies ist ein Schulprojekt mit dem Ziel, eine umfassende Esports-Event-Management-Plattform mit folgenden Kernfunktionen zu entwickeln:
 
