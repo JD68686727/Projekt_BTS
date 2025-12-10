@@ -1,5 +1,3 @@
-# CLAUDE.md - AI Assistant Guide for Projekt_BTS
-
 ## Project Overview
 
 **Project Name:** Projekt_BTS (BTS School Project)
