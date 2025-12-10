@@ -1,6 +1,4 @@
-# CLAUDE.md - KI-Assistent-Leitfaden für Projekt_BTS
 
-## Projektübersicht
 
 **Projektname:** Projekt_BTS (BTS-Schulprojekt)
 **Typ:** Esports-Event-Management-System
