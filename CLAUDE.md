@@ -1,92 +1,92 @@
-## Project Overview
 
-**Project Name:** Projekt_BTS (BTS School Project)
-**Type:** Esports Event Management System
-**Status:** 🚧 Pre-development / Planning Phase
-**Author:** Quintic (Joeldenninger@proton.me)
-**Last Updated:** 2025-12-10
 
-### Purpose
-This is a school project aimed at building a comprehensive esports event management platform with the following core features:
+**Projektname:** Projekt_BTS (BTS-Schulprojekt)
+**Typ:** Esports-Event-Management-System
+**Status:** 🚧 Vorentwicklung / Planungsphase
+**Autor:** Quintic (Joeldenninger@proton.me)
+**Zuletzt aktualisiert:** 2025-12-10
 
-1. **Event Organization** - Tools for creating, managing, and hosting esports tournaments
-2. **Contract Management** - System for handling player/team contracts and agreements
-3. **League System** - Structured league play with major tournaments
+### Zweck
+Dies ist ein Schulprojekt mit dem Ziel, eine umfassende Esports-Event-Management-Plattform mit folgenden Kernfunktionen zu entwickeln:
 
-## Current Repository State
+1. **Event-Organisation** - Werkzeuge zum Erstellen, Verwalten und Durchführen von Esports-Turnieren
+2. **Vertrags-Management** - System zur Verwaltung von Spieler-/Team-Verträgen und Vereinbarungen
+3. **Liga-System** - Strukturierter Liga-Spielbetrieb mit Major-Turnieren
 
-### What Exists
-- ✅ Git repository initialized
-- ✅ Basic README.md with project description
-- ✅ Clean git history with 6 commits
-- ✅ Remote repository configured
+## Aktueller Repository-Status
 
-### What's Missing
-- ❌ No source code yet
-- ❌ No technology stack chosen
-- ❌ No project structure established
-- ❌ No dependencies configured
-- ❌ No build system set up
-- ❌ No testing framework
-- ❌ No CI/CD pipeline
-- ❌ No .gitignore file
-- ❌ No development environment setup
+### Was bereits existiert
+- ✅ Git-Repository initialisiert
+- ✅ Basis-README.md mit Projektbeschreibung
+- ✅ Saubere Git-History mit 6 Commits
+- ✅ Remote-Repository konfiguriert
 
-**Line Count:** 0 (excluding documentation)
+### Was noch fehlt
+- ❌ Noch kein Quellcode vorhanden
+- ❌ Kein Technology-Stack gewählt
+- ❌ Keine Projektstruktur etabliert
+- ❌ Keine Dependencies konfiguriert
+- ❌ Kein Build-System eingerichtet
+- ❌ Kein Testing-Framework
+- ❌ Keine CI/CD-Pipeline
+- ❌ Keine .gitignore-Datei
+- ❌ Keine Entwicklungsumgebung eingerichtet
 
-## Repository Structure
+**Zeilenanzahl:** 0 (ohne Dokumentation)
+
+## Repository-Struktur
 
 ```
 Projekt_BTS/
-├── .git/                    # Git version control
-├── README.md               # Project description (98 bytes)
-└── CLAUDE.md              # This file - AI assistant guide
+├── .git/                    # Git-Versionskontrolle
+├── README.md               # Projektbeschreibung (98 Bytes)
+└── CLAUDE.md              # Diese Datei - KI-Assistent-Leitfaden
 ```
 
-### Expected Future Structure
+### Erwartete zukünftige Struktur
 
 ```
 Projekt_BTS/
 ├── .github/
-│   └── workflows/          # CI/CD pipelines
-├── docs/                   # Additional documentation
-│   ├── api/               # API documentation
-│   ├── architecture/      # System architecture docs
-│   └── guides/            # Development guides
-├── src/                    # Source code
-│   ├── backend/           # Backend services
-│   │   ├── api/          # API endpoints
-│   │   ├── models/       # Data models
-│   │   ├── services/     # Business logic
-│   │   └── utils/        # Utility functions
-│   ├── frontend/          # Frontend application
-│   │   ├── components/   # UI components
-│   │   ├── pages/        # Page components
-│   │   ├── services/     # API clients
-│   │   ├── hooks/        # Custom hooks
-│   │   └── utils/        # Frontend utilities
-│   └── shared/            # Shared code between frontend/backend
-├── tests/                  # Test suites
+│   └── workflows/          # CI/CD-Pipelines
+├── docs/                   # Zusätzliche Dokumentation
+│   ├── api/               # API-Dokumentation
+│   ├── architecture/      # Systemarchitektur-Dokumentation
+│   └── guides/            # Entwicklungsanleitungen
+├── src/                    # Quellcode
+│   ├── backend/           # Backend-Services
+│   │   ├── api/          # API-Endpunkte
+│   │   ├── models/       # Datenmodelle
+│   │   ├── services/     # Geschäftslogik
+│   │   └── utils/        # Hilfsfunktionen
+│   ├── frontend/          # Frontend-Anwendung
+│   │   ├── components/   # UI-Komponenten
+│   │   ├── pages/        # Seiten-Komponenten
+│   │   ├── services/     # API-Clients
+│   │   ├── hooks/        # Custom Hooks
+│   │   └── utils/        # Frontend-Hilfsfunktionen
+│   └── shared/            # Gemeinsamer Code zwischen Frontend/Backend
+├── tests/                  # Test-Suites
 │   ├── unit/
 │   ├── integration/
 │   └── e2e/
-├── scripts/                # Build and development scripts
-├── config/                 # Configuration files
-├── .gitignore             # Git ignore rules
-├── .env.example           # Environment variable template
-├── README.md              # Project overview
-├── CLAUDE.md              # This file
-└── [package.json|requirements.txt|etc.]  # Dependency management
+├── scripts/                # Build- und Entwicklungs-Skripte
+├── config/                 # Konfigurationsdateien
+├── .gitignore             # Git-Ignore-Regeln
+├── .env.example           # Umgebungsvariablen-Vorlage
+├── README.md              # Projektübersicht
+├── CLAUDE.md              # Diese Datei
+└── [package.json|requirements.txt|etc.]  # Dependency-Management
 ```
 
-## Technology Stack Recommendations
+## Technologie-Stack-Empfehlungen
 
-### Decision Status: ⏳ Not Yet Decided
+### Entscheidungsstatus: ⏳ Noch nicht entschieden
 
-Since no technology stack has been chosen, here are recommended options based on the project requirements:
+Da noch kein Technologie-Stack gewählt wurde, sind hier empfohlene Optionen basierend auf den Projektanforderungen:
 
-### Option 1: Modern JavaScript/TypeScript Stack (Recommended)
-**Why:** Industry standard, large ecosystem, full-stack JavaScript
+### Option 1: Moderner JavaScript/TypeScript-Stack (Empfohlen)
+**Warum:** Industriestandard, großes Ökosystem, Full-Stack JavaScript
 
 ```yaml
 Frontend:
@@ -102,8 +102,8 @@ Backend:
   - Validation: Zod or Joi
 
 Database:
-  - PostgreSQL (recommended for relational data)
-  - Redis (for caching and sessions)
+  - PostgreSQL (empfohlen für relationale Daten)
+  - Redis (für Caching und Sessions)
 
 Testing:
   - Unit/Integration: Vitest or Jest
@@ -116,8 +116,8 @@ DevOps:
   - Deployment: Vercel/Railway/Render
 ```
 
-### Option 2: Python Stack
-**Why:** Great for rapid development, strong ML/data capabilities
+### Option 2: Python-Stack
+**Warum:** Großartig für schnelle Entwicklung, starke ML/Daten-Fähigkeiten
 
 ```yaml
 Backend:
@@ -126,7 +126,7 @@ Backend:
   - Validation: Pydantic
 
 Frontend:
-  - Same as Option 1 (React/TypeScript)
+  - Wie Option 1 (React/TypeScript)
 
 Database:
   - PostgreSQL
@@ -137,7 +137,7 @@ Testing:
 ```
 
 ### Option 3: Java Enterprise Stack
-**Why:** Robust, enterprise-grade, strong typing
+**Warum:** Robust, Enterprise-tauglich, starke Typisierung
 
 ```yaml
 Backend:
@@ -146,7 +146,7 @@ Backend:
   - Security: Spring Security
 
 Frontend:
-  - Same as Option 1 (React/TypeScript)
+  - Wie Option 1 (React/TypeScript)
 
 Database:
   - PostgreSQL
@@ -157,104 +157,104 @@ Testing:
   - Spring Test
 ```
 
-## Development Workflows
+## Entwicklungs-Workflows
 
-### Git Workflow
+### Git-Workflow
 
-#### Branch Strategy
-- **Main Branch:** `main` or `master` - Production-ready code
-- **Development Branch:** `dev` - Integration branch for features
-- **Feature Branches:** `feature/<feature-name>` - New features
-- **Bug Fix Branches:** `fix/<bug-description>` - Bug fixes
-- **Claude Branches:** `claude/claude-md-<session-id>` - AI assistant work
+#### Branch-Strategie
+- **Main Branch:** `main` oder `master` - Produktionsfertiger Code
+- **Development Branch:** `dev` - Integrationsbranch für Features
+- **Feature Branches:** `feature/<feature-name>` - Neue Features
+- **Bug Fix Branches:** `fix/<bug-beschreibung>` - Bugfixes
+- **Claude Branches:** `claude/claude-md-<session-id>` - KI-Assistent-Arbeit
 
-#### Current Branch
-Working on: `claude/claude-md-mizouigb4epwkeac-01Ti41tRC6hg8NJvbKpkPj3m`
+#### Aktueller Branch
+Arbeite an: `claude/claude-md-mizouigb4epwkeac-01Ti41tRC6hg8NJvbKpkPj3m`
 
-#### Commit Message Convention
-Follow conventional commits:
+#### Commit-Message-Konvention
+Folge Conventional Commits:
 
 ```
-<type>(<scope>): <subject>
+<type>(<scope>): <betreff>
 
 <body>
 
 <footer>
 ```
 
-**Types:**
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Code style changes (formatting, no logic change)
-- `refactor`: Code refactoring
-- `test`: Adding or updating tests
-- `chore`: Maintenance tasks
-- `perf`: Performance improvements
+**Typen:**
+- `feat`: Neues Feature
+- `fix`: Bugfix
+- `docs`: Dokumentationsänderungen
+- `style`: Code-Style-Änderungen (Formatierung, keine Logikänderung)
+- `refactor`: Code-Refactoring
+- `test`: Hinzufügen oder Aktualisieren von Tests
+- `chore`: Wartungsaufgaben
+- `perf`: Performance-Verbesserungen
 
-**Examples:**
+**Beispiele:**
 ```
-feat(events): add event creation endpoint
-fix(contracts): resolve date validation bug
-docs(readme): update installation instructions
-test(events): add unit tests for event service
+feat(events): event-erstellungs-endpunkt hinzugefügt
+fix(contracts): datums-validierungsfehler behoben
+docs(readme): installationsanweisungen aktualisiert
+test(events): unit-tests für event-service hinzugefügt
 ```
 
-### Development Setup (Once Tech Stack is Chosen)
+### Entwicklungs-Setup (Sobald Tech-Stack gewählt ist)
 
-#### First Time Setup
+#### Erstmalige Einrichtung
 ```bash
-# Clone repository
+# Repository klonen
 git clone <repository-url>
 cd Projekt_BTS
 
-# Install dependencies (example for Node.js)
+# Dependencies installieren (Beispiel für Node.js)
 npm install
 
-# Copy environment template
+# Umgebungs-Vorlage kopieren
 cp .env.example .env
 
-# Set up database
+# Datenbank einrichten
 npm run db:setup
 
-# Run migrations
+# Migrationen ausführen
 npm run db:migrate
 
-# Start development server
+# Entwicklungs-Server starten
 npm run dev
 ```
 
-#### Daily Development Workflow
+#### Täglicher Entwicklungs-Workflow
 ```bash
-# Update local repository
+# Lokales Repository aktualisieren
 git fetch origin
 git pull origin dev
 
-# Create feature branch
-git checkout -b feature/my-feature
+# Feature-Branch erstellen
+git checkout -b feature/mein-feature
 
-# Make changes and commit frequently
+# Änderungen vornehmen und häufig committen
 git add .
-git commit -m "feat(scope): description"
+git commit -m "feat(scope): beschreibung"
 
-# Push to remote
-git push -u origin feature/my-feature
+# Zum Remote pushen
+git push -u origin feature/mein-feature
 
-# Create pull request for code review
+# Pull Request für Code-Review erstellen
 ```
 
-## Code Conventions (To Be Followed)
+## Code-Konventionen (Zu befolgen)
 
-### General Principles
+### Allgemeine Prinzipien
 
-1. **Keep It Simple** - Avoid over-engineering
+1. **Keep It Simple** - Vermeide Over-Engineering
 2. **DRY** - Don't Repeat Yourself
-3. **SOLID** - Follow SOLID principles
-4. **Test Coverage** - Aim for 80%+ test coverage
-5. **Documentation** - Document complex logic and public APIs
-6. **Type Safety** - Use TypeScript or strong typing wherever possible
+3. **SOLID** - Folge SOLID-Prinzipien
+4. **Test Coverage** - Strebe 80%+ Test-Abdeckung an
+5. **Dokumentation** - Dokumentiere komplexe Logik und öffentliche APIs
+6. **Type Safety** - Verwende TypeScript oder starke Typisierung wo möglich
 
-### File Naming
+### Datei-Benennung
 
 ```
 TypeScript/JavaScript:
@@ -275,15 +275,15 @@ Java:
   - Constants: UPPER_SNAKE_CASE
 ```
 
-### Code Style
+### Code-Stil
 
-#### TypeScript/JavaScript Example
+#### TypeScript/JavaScript-Beispiel
 ```typescript
-// Good: Clear, typed, documented
+// Gut: Klar, typisiert, dokumentiert
 /**
- * Creates a new esports event
- * @param eventData - Event creation parameters
- * @returns Created event with generated ID
+ * Erstellt ein neues Esports-Event
+ * @param eventData - Event-Erstellungsparameter
+ * @returns Erstelltes Event mit generierter ID
  */
 export async function createEvent(
   eventData: CreateEventDto
@@ -292,78 +292,78 @@ export async function createEvent(
   return await eventRepository.create(validatedData);
 }
 
-// Bad: No types, no validation, poor naming
+// Schlecht: Keine Typen, keine Validierung, schlechte Benennung
 export async function create(data) {
   return await db.events.insert(data);
 }
 ```
 
-#### Python Example
+#### Python-Beispiel
 ```python
-# Good: Type hints, docstrings, validation
+# Gut: Type Hints, Docstrings, Validierung
 async def create_event(event_data: CreateEventDto) -> Event:
     """
-    Creates a new esports event.
+    Erstellt ein neues Esports-Event.
 
     Args:
-        event_data: Event creation parameters
+        event_data: Event-Erstellungsparameter
 
     Returns:
-        Created event with generated ID
+        Erstelltes Event mit generierter ID
 
     Raises:
-        ValidationError: If event data is invalid
+        ValidationError: Wenn Event-Daten ungültig sind
     """
     validated_data = validate_event_data(event_data)
     return await event_repository.create(validated_data)
 
-# Bad: No types, no docs
+# Schlecht: Keine Typen, keine Dokumentation
 async def create(data):
     return await db.insert(data)
 ```
 
-### Testing Conventions
+### Test-Konventionen
 
 ```typescript
-// Unit Test Example (Vitest/Jest)
+// Unit-Test-Beispiel (Vitest/Jest)
 describe('EventService', () => {
   describe('createEvent', () => {
-    it('should create event with valid data', async () => {
-      const eventData = { name: 'Test Tournament', date: '2025-12-15' };
+    it('sollte Event mit gültigen Daten erstellen', async () => {
+      const eventData = { name: 'Test-Turnier', date: '2025-12-15' };
       const result = await eventService.createEvent(eventData);
 
       expect(result).toHaveProperty('id');
       expect(result.name).toBe(eventData.name);
     });
 
-    it('should throw error with invalid date', async () => {
-      const eventData = { name: 'Test', date: 'invalid' };
+    it('sollte Fehler bei ungültigem Datum werfen', async () => {
+      const eventData = { name: 'Test', date: 'ungültig' };
 
       await expect(
         eventService.createEvent(eventData)
-      ).rejects.toThrow('Invalid date');
+      ).rejects.toThrow('Ungültiges Datum');
     });
   });
 });
 ```
 
-## Feature Development Areas
+## Feature-Entwicklungsbereiche
 
-Based on the project requirements, here are the key feature areas to implement:
+Basierend auf den Projektanforderungen sind hier die Hauptfunktionsbereiche zu implementieren:
 
-### 1. Event Management
-**Priority:** High 🔴
+### 1. Event-Management
+**Priorität:** Hoch 🔴
 
 **Features:**
-- Event creation and configuration
-- Tournament bracket management
-- Match scheduling
-- Live score tracking
-- Event publishing and discovery
-- Participant registration
-- Event cancellation and rescheduling
+- Event-Erstellung und -Konfiguration
+- Turnier-Bracket-Management
+- Match-Planung
+- Live-Score-Tracking
+- Event-Veröffentlichung und -Entdeckung
+- Teilnehmer-Registrierung
+- Event-Absage und -Umplanung
 
-**Models:**
+**Modelle:**
 ```typescript
 interface Event {
   id: string;
@@ -383,19 +383,19 @@ interface Event {
 }
 ```
 
-### 2. Contract Management
-**Priority:** High 🔴
+### 2. Vertrags-Management
+**Priorität:** Hoch 🔴
 
 **Features:**
-- Contract creation and templates
-- Digital signatures
-- Contract status tracking
-- Contract search and filtering
-- Contract expiration notifications
-- Contract renewal workflows
-- Multi-party contracts (teams, players, organizations)
+- Vertragserstellung und -vorlagen
+- Digitale Signaturen
+- Vertrags-Status-Tracking
+- Vertragssuche und -filterung
+- Vertrags-Ablauf-Benachrichtigungen
+- Vertragsverlängerungs-Workflows
+- Multi-Party-Verträge (Teams, Spieler, Organisationen)
 
-**Models:**
+**Modelle:**
 ```typescript
 interface Contract {
   id: string;
@@ -414,20 +414,20 @@ interface Contract {
 }
 ```
 
-### 3. League System with Majors
-**Priority:** High 🔴
+### 3. Liga-System mit Majors
+**Priorität:** Hoch 🔴
 
 **Features:**
-- League creation and configuration
-- Season management
-- Division/tier system
-- Standings and rankings
-- Major tournament designation
-- Promotion/relegation system
-- Points and scoring system
-- Playoff brackets
+- Liga-Erstellung und -Konfiguration
+- Saison-Management
+- Divisions-/Tier-System
+- Tabellen und Rankings
+- Major-Turnier-Designation
+- Aufstiegs-/Abstiegs-System
+- Punkte- und Scoring-System
+- Playoff-Brackets
 
-**Models:**
+**Modelle:**
 ```typescript
 interface League {
   id: string;
@@ -455,86 +455,86 @@ interface Major {
 }
 ```
 
-### 4. User & Team Management
-**Priority:** Medium 🟡
+### 4. Benutzer- & Team-Management
+**Priorität:** Mittel 🟡
 
 **Features:**
-- User registration and authentication
-- User profiles (players, organizers, teams)
-- Team creation and management
-- Roster management
-- Role-based access control
-- User verification
+- Benutzerregistrierung und -authentifizierung
+- Benutzerprofile (Spieler, Organisatoren, Teams)
+- Team-Erstellung und -Management
+- Roster-Management
+- Rollenbasierte Zugriffskontrolle
+- Benutzer-Verifizierung
 
-### 5. Additional Features
-**Priority:** Low 🟢
+### 5. Zusätzliche Features
+**Priorität:** Niedrig 🟢
 
 **Features:**
-- Notifications system
-- Email notifications
-- Live streaming integration
-- Statistics and analytics
-- Admin dashboard
-- Content management
-- Sponsorship management
+- Benachrichtigungssystem
+- E-Mail-Benachrichtigungen
+- Live-Streaming-Integration
+- Statistiken und Analytics
+- Admin-Dashboard
+- Content-Management
+- Sponsoring-Management
 
-## API Design Guidelines
+## API-Design-Richtlinien
 
-### RESTful API Conventions
+### RESTful-API-Konventionen
 
 ```
 Events:
-  GET    /api/events              - List all events
-  GET    /api/events/:id          - Get event details
-  POST   /api/events              - Create new event
-  PUT    /api/events/:id          - Update event
-  DELETE /api/events/:id          - Delete event
-  POST   /api/events/:id/register - Register for event
+  GET    /api/events              - Liste aller Events
+  GET    /api/events/:id          - Event-Details abrufen
+  POST   /api/events              - Neues Event erstellen
+  PUT    /api/events/:id          - Event aktualisieren
+  DELETE /api/events/:id          - Event löschen
+  POST   /api/events/:id/register - Für Event registrieren
 
 Contracts:
-  GET    /api/contracts           - List contracts
-  GET    /api/contracts/:id       - Get contract details
-  POST   /api/contracts           - Create contract
-  PUT    /api/contracts/:id       - Update contract
-  POST   /api/contracts/:id/sign  - Sign contract
+  GET    /api/contracts           - Liste der Verträge
+  GET    /api/contracts/:id       - Vertrags-Details abrufen
+  POST   /api/contracts           - Vertrag erstellen
+  PUT    /api/contracts/:id       - Vertrag aktualisieren
+  POST   /api/contracts/:id/sign  - Vertrag unterschreiben
 
 Leagues:
-  GET    /api/leagues             - List leagues
-  GET    /api/leagues/:id         - Get league details
-  POST   /api/leagues             - Create league
-  GET    /api/leagues/:id/standings - Get standings
-  GET    /api/leagues/:id/majors  - List major tournaments
+  GET    /api/leagues             - Liste der Ligen
+  GET    /api/leagues/:id         - Liga-Details abrufen
+  POST   /api/leagues             - Liga erstellen
+  GET    /api/leagues/:id/standings - Tabelle abrufen
+  GET    /api/leagues/:id/majors  - Liste der Major-Turniere
 ```
 
-### Response Format
+### Antwort-Format
 
 ```typescript
-// Success Response
+// Erfolgs-Antwort
 {
   "success": true,
-  "data": { /* resource data */ },
-  "message": "Event created successfully"
+  "data": { /* Ressourcen-Daten */ },
+  "message": "Event erfolgreich erstellt"
 }
 
-// Error Response
+// Fehler-Antwort
 {
   "success": false,
   "error": {
     "code": "VALIDATION_ERROR",
-    "message": "Invalid event date",
+    "message": "Ungültiges Event-Datum",
     "details": [
       {
         "field": "startDate",
-        "message": "Start date must be in the future"
+        "message": "Startdatum muss in der Zukunft liegen"
       }
     ]
   }
 }
 
-// Paginated Response
+// Paginierte Antwort
 {
   "success": true,
-  "data": [ /* items */ ],
+  "data": [ /* Items */ ],
   "pagination": {
     "page": 1,
     "pageSize": 20,
@@ -544,30 +544,30 @@ Leagues:
 }
 ```
 
-## Database Design Considerations
+## Datenbank-Design-Überlegungen
 
-### Key Entities
+### Haupt-Entitäten
 
-1. **Users** - Players, organizers, admins
-2. **Teams** - Esports teams
-3. **Events** - Tournaments and competitions
-4. **Contracts** - Legal agreements
-5. **Leagues** - League structures
-6. **Matches** - Individual games/matches
-7. **Organizations** - Companies and sponsors
+1. **Users** - Spieler, Organisatoren, Admins
+2. **Teams** - Esports-Teams
+3. **Events** - Turniere und Wettbewerbe
+4. **Contracts** - Rechtliche Vereinbarungen
+5. **Leagues** - Liga-Strukturen
+6. **Matches** - Einzelne Spiele/Matches
+7. **Organizations** - Unternehmen und Sponsoren
 
-### Relationships
+### Beziehungen
 
 - Users → Teams (many-to-many via TeamMember)
 - Teams → Events (many-to-many via Participation)
 - Users/Teams → Contracts (many-to-many via ContractParty)
-- Leagues → Events (one-to-many for major tournaments)
+- Leagues → Events (one-to-many für Major-Turniere)
 - Events → Matches (one-to-many)
 
-### Indexing Strategy
+### Indexierungs-Strategie
 
 ```sql
--- High-priority indexes
+-- High-Priority-Indizes
 CREATE INDEX idx_events_status ON events(status);
 CREATE INDEX idx_events_start_date ON events(start_date);
 CREATE INDEX idx_contracts_status ON contracts(status);
@@ -575,209 +575,210 @@ CREATE INDEX idx_contracts_end_date ON contracts(end_date);
 CREATE INDEX idx_leagues_season ON leagues(season);
 ```
 
-## Security Considerations
+## Sicherheits-Überlegungen
 
-### Authentication & Authorization
+### Authentifizierung & Autorisierung
 
-1. **JWT-based authentication** for API access
-2. **Role-based access control (RBAC)**:
-   - Admin: Full system access
-   - Organizer: Create/manage events
-   - Player: Register for events, view contracts
-   - Guest: Read-only access
+1. **JWT-basierte Authentifizierung** für API-Zugriff
+2. **Rollenbasierte Zugriffskontrolle (RBAC)**:
+   - Admin: Voller System-Zugriff
+   - Organizer: Events erstellen/verwalten
+   - Player: Für Events registrieren, Verträge ansehen
+   - Guest: Nur-Lese-Zugriff
 
-### Data Protection
+### Datenschutz
 
-- **Password hashing**: bcrypt or Argon2
-- **Input validation**: Validate all user inputs
-- **SQL injection prevention**: Use parameterized queries/ORM
-- **XSS prevention**: Sanitize outputs
-- **CSRF protection**: Use CSRF tokens
-- **Rate limiting**: Prevent API abuse
-- **Environment variables**: Store secrets in .env (never commit)
+- **Passwort-Hashing**: bcrypt oder Argon2
+- **Input-Validierung**: Alle Benutzereingaben validieren
+- **SQL-Injection-Prävention**: Parametrisierte Queries/ORM verwenden
+- **XSS-Prävention**: Outputs sanitisieren
+- **CSRF-Schutz**: CSRF-Tokens verwenden
+- **Rate Limiting**: API-Missbrauch verhindern
+- **Umgebungsvariablen**: Secrets in .env speichern (niemals committen)
 
-### Sensitive Data
+### Sensible Daten
 
 ```bash
-# .env.example (template - safe to commit)
+# .env.example (Vorlage - sicher zu committen)
 DATABASE_URL=postgresql://user:password@localhost:5432/projekt_bts
-JWT_SECRET=your-secret-key-here
+JWT_SECRET=dein-geheimer-schlüssel-hier
 JWT_EXPIRES_IN=7d
 REDIS_URL=redis://localhost:6379
 EMAIL_SERVICE=smtp.example.com
 EMAIL_USER=noreply@example.com
-EMAIL_PASSWORD=your-email-password
+EMAIL_PASSWORD=dein-email-passwort
 
-# .env (actual - NEVER commit)
-# Contains real credentials
+# .env (tatsächlich - NIEMALS committen)
+# Enthält echte Zugangsdaten
 ```
 
-## AI Assistant Guidelines
+## KI-Assistent-Richtlinien
 
-### When Working on This Project
+### Bei der Arbeit an diesem Projekt
 
-1. **Always Read First**
-   - Read existing code before making changes
-   - Understand the context and existing patterns
-   - Check for similar implementations
+1. **Immer zuerst lesen**
+   - Lies bestehenden Code bevor du Änderungen vornimmst
+   - Verstehe den Kontext und bestehende Muster
+   - Prüfe auf ähnliche Implementierungen
 
-2. **Follow Established Patterns**
-   - Once a tech stack is chosen, follow its conventions
-   - Match existing code style
-   - Use established naming conventions
+2. **Folge etablierten Mustern**
+   - Sobald ein Tech-Stack gewählt ist, folge seinen Konventionen
+   - Passe dich an den bestehenden Code-Stil an
+   - Verwende etablierte Benennungskonventionen
 
-3. **Test Your Changes**
-   - Write tests for new features
-   - Run existing tests before committing
-   - Ensure no regressions
+3. **Teste deine Änderungen**
+   - Schreibe Tests für neue Features
+   - Führe bestehende Tests vor dem Committen aus
+   - Stelle sicher, dass es keine Regressionen gibt
 
-4. **Document as You Go**
-   - Update this CLAUDE.md when patterns change
-   - Add JSDoc/docstrings for functions
-   - Update API documentation
+4. **Dokumentiere unterwegs**
+   - Aktualisiere diese CLAUDE.md wenn sich Muster ändern
+   - Füge JSDoc/Docstrings für Funktionen hinzu
+   - Aktualisiere API-Dokumentation
 
-5. **Security First**
-   - Never commit secrets or credentials
-   - Validate all inputs
-   - Follow security best practices
-   - Check for common vulnerabilities (OWASP Top 10)
+5. **Sicherheit zuerst**
+   - Committe niemals Secrets oder Zugangsdaten
+   - Validiere alle Eingaben
+   - Folge Security-Best-Practices
+   - Prüfe auf häufige Schwachstellen (OWASP Top 10)
 
 6. **Keep It Simple**
-   - Avoid over-engineering
-   - Make minimal changes to fix issues
-   - Don't refactor unrelated code
-   - No premature optimization
+   - Vermeide Over-Engineering
+   - Mache minimale Änderungen um Probleme zu lösen
+   - Refactorisiere nicht unabhängigen Code
+   - Keine vorzeitige Optimierung
 
-7. **Git Hygiene**
-   - Make atomic commits
-   - Write clear commit messages
-   - Keep commits focused on one thing
-   - Push to appropriate feature branches
+7. **Git-Hygiene**
+   - Mache atomare Commits
+   - Schreibe klare Commit-Messages
+   - Halte Commits fokussiert auf eine Sache
+   - Pushe zu geeigneten Feature-Branches
 
-8. **Communication**
-   - Ask for clarification when requirements are unclear
-   - Explain your approach before implementing
-   - Document complex decisions
+8. **Kommunikation**
+   - Frage nach Klarstellung wenn Anforderungen unklar sind
+   - Erkläre deinen Ansatz vor der Implementierung
+   - Dokumentiere komplexe Entscheidungen
 
-### Code Review Checklist
+### Code-Review-Checkliste
 
-Before committing, verify:
+Vor dem Committen überprüfen:
 
-- [ ] Code follows project conventions
-- [ ] Tests pass (`npm test` or equivalent)
-- [ ] No console.log or debug code left in
-- [ ] No secrets or credentials in code
-- [ ] Types are properly defined (TypeScript)
-- [ ] Error handling is implemented
-- [ ] Edge cases are handled
-- [ ] Documentation is updated
-- [ ] No unnecessary dependencies added
-- [ ] Code is readable and maintainable
+- [ ] Code folgt Projekt-Konventionen
+- [ ] Tests bestehen (`npm test` oder Equivalent)
+- [ ] Kein console.log oder Debug-Code übrig
+- [ ] Keine Secrets oder Zugangsdaten im Code
+- [ ] Typen sind korrekt definiert (TypeScript)
+- [ ] Error-Handling ist implementiert
+- [ ] Edge-Cases sind behandelt
+- [ ] Dokumentation ist aktualisiert
+- [ ] Keine unnötigen Dependencies hinzugefügt
+- [ ] Code ist lesbar und wartbar
 
-## Project Initialization Steps
+## Projekt-Initialisierungs-Schritte
 
-### Phase 1: Setup (Current Priority)
+### Phase 1: Setup (Aktuelle Priorität)
 
-1. **Choose Technology Stack**
-   - Decide on frontend/backend frameworks
-   - Select database system
-   - Choose deployment platform
+1. **Technologie-Stack wählen**
+   - Entscheide dich für Frontend/Backend-Frameworks
+   - Wähle Datenbank-System
+   - Wähle Deployment-Plattform
 
-2. **Initialize Project**
+2. **Projekt initialisieren**
    ```bash
-   # Example for Node.js/TypeScript
+   # Beispiel für Node.js/TypeScript
    npm init -y
    npm install typescript @types/node --save-dev
    npx tsc --init
 
-   # Set up linting
+   # Linting einrichten
    npm install eslint prettier --save-dev
    npx eslint --init
 
-   # Set up testing
+   # Testing einrichten
    npm install vitest @vitest/ui --save-dev
    ```
 
-3. **Create Essential Files**
+3. **Essentielle Dateien erstellen**
    - `.gitignore`
    - `.env.example`
-   - `tsconfig.json` (if TypeScript)
+   - `tsconfig.json` (falls TypeScript)
    - `docker-compose.yml`
-   - Basic project structure
+   - Basis-Projektstruktur
 
-4. **Set Up CI/CD**
-   - Create `.github/workflows/ci.yml`
-   - Configure automated testing
-   - Set up deployment pipeline
+4. **CI/CD einrichten**
+   - Erstelle `.github/workflows/ci.yml`
+   - Konfiguriere automatisiertes Testen
+   - Richte Deployment-Pipeline ein
 
-### Phase 2: Core Development
+### Phase 2: Kern-Entwicklung
 
-1. **Database Schema**
-   - Design entity relationship diagram
-   - Create migration files
-   - Set up database seeds
+1. **Datenbank-Schema**
+   - Entwerfe Entity-Relationship-Diagramm
+   - Erstelle Migrations-Dateien
+   - Richte Datenbank-Seeds ein
 
-2. **Authentication System**
-   - User registration/login
-   - JWT token management
-   - Password reset flow
+2. **Authentifizierungs-System**
+   - Benutzerregistrierung/-login
+   - JWT-Token-Management
+   - Passwort-Reset-Flow
 
-3. **Core Features** (in order)
-   - User management
-   - Event creation and management
-   - Contract system
-   - League system
+3. **Kern-Features** (in Reihenfolge)
+   - Benutzerverwaltung
+   - Event-Erstellung und -Management
+   - Vertrags-System
+   - Liga-System
 
-### Phase 3: Enhancement
+### Phase 3: Verbesserung
 
-1. **Advanced Features**
-   - Notifications
-   - Email system
-   - Analytics dashboard
-   - File uploads
+1. **Erweiterte Features**
+   - Benachrichtigungen
+   - E-Mail-System
+   - Analytics-Dashboard
+   - Datei-Uploads
 
-2. **Optimization**
-   - Performance tuning
-   - Caching strategy
-   - Database optimization
+2. **Optimierung**
+   - Performance-Tuning
+   - Caching-Strategie
+   - Datenbank-Optimierung
 
-3. **Polish**
-   - UI/UX improvements
-   - Error handling
-   - Loading states
-   - Accessibility
+3. **Feinschliff**
+   - UI/UX-Verbesserungen
+   - Error-Handling
+   - Loading-States
+   - Barrierefreiheit
 
-## Resources & References
+## Ressourcen & Referenzen
 
-### Recommended Reading
+### Empfohlene Lektüre
 
-- [Clean Code by Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-- [Refactoring by Martin Fowler](https://refactoring.com/)
+- [Clean Code von Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+- [Refactoring von Martin Fowler](https://refactoring.com/)
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [REST API Design Best Practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 
-### Useful Tools
+### Nützliche Tools
 
-- **API Testing:** Postman, Insomnia, Thunder Client
-- **Database:** pgAdmin, DBeaver, MongoDB Compass
-- **Version Control:** GitKraken, SourceTree, GitHub Desktop
-- **Documentation:** Swagger/OpenAPI, Postman Collections
+- **API-Testing:** Postman, Insomnia, Thunder Client
+- **Datenbank:** pgAdmin, DBeaver, MongoDB Compass
+- **Versionskontrolle:** GitKraken, SourceTree, GitHub Desktop
+- **Dokumentation:** Swagger/OpenAPI, Postman Collections
 - **Monitoring:** Sentry, LogRocket, New Relic
 
-## Contact & Support
+## Kontakt & Support
 
-**Project Author:** Quintic (Joeldenninger@proton.me)
+**Projekt-Autor:** Quintic (Joeldenninger@proton.me)
 **Repository:** JD68686727/Projekt_BTS
-**Type:** BTS School Project
+**Typ:** BTS-Schulprojekt
 
 ## Changelog
 
 ### 2025-12-10
-- Created CLAUDE.md
-- Documented project scope and requirements
-- Established development guidelines
-- Defined expected architecture and features
+- CLAUDE.md erstellt
+- Projektumfang und -anforderungen dokumentiert
+- Entwicklungs-Richtlinien etabliert
+- Erwartete Architektur und Features definiert
+- Vollständige Übersetzung ins Deutsche
 
 ---
 
-**Note:** This document is living and should be updated as the project evolves. All developers and AI assistants should keep this file current with project changes, conventions, and patterns.
+**Hinweis:** Dieses Dokument ist lebendig und sollte aktualisiert werden, wenn sich das Projekt weiterentwickelt. Alle Entwickler und KI-Assistenten sollten diese Datei mit Projektänderungen, Konventionen und Mustern aktuell halten.
