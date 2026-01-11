@@ -1,0 +1,11 @@
+# ==============================================================================
+# CS2 E-SPORT MANAGEMENT SYSTEM - Python Abhängigkeiten
+# ==============================================================================
+# Installation: pip install -r requirements.txt
+# ==============================================================================
+
+# MariaDB/MySQL Connector
+mysql-connector-python>=8.0.0
+
+# Umgebungsvariablen aus .env laden
+python-dotenv>=1.0.0
